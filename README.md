@@ -13,9 +13,9 @@ Tekla
 
 + It's a window application. You can run it directly with .exe file or use debug mode of Visual Studio
 
-https://rawcdn.githack.com/baoquylan/RevitToTekla/master/image/demo.gif
+![alt text](https://rawcdn.githack.com/baoquylan/RevitToTekla/master/image/demo.gif)
 
-(Youtube)[https://www.youtube.com/watch?v=Gpn5tDFeGm0]
+[Youtube](https://www.youtube.com/watch?v=Gpn5tDFeGm0)
 
 ## Which objects can be converted?
 Currently, this add-in can convert objects, including:
