@@ -13,7 +13,7 @@ Tekla
 
 + It's a window application. You can run it directly with .exe file or use debug mode of Visual Studio
 
-![alt text](https://rawcdn.githack.com/baoquylan/RevitToTekla/master/image/demo.gif)
+![alt text](https://github.com/baoquylan/RevitToTekla/blob/master/image/demo.gif?raw=true)
 
 [Youtube](https://www.youtube.com/watch?v=Gpn5tDFeGm0)
 
