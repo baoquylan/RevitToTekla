@@ -83,4 +83,3 @@ E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\RevitToTekla\bin\Debug\zh-TW\A
 E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\RevitToTekla\obj\Debug\RevitToTekla.csproj.CopyComplete
 E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\RevitToTekla\obj\Debug\RevitToTekla.dll
 E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\RevitToTekla\obj\Debug\RevitToTekla.pdb
-E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\RevitToTekla\obj\Debug\RevitToTekla.csproj.AssemblyReference.cache

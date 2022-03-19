@@ -377,13 +377,13 @@ namespace RevitToTekla
                     foreach (EdgeArray edgeArray in topFaceFloor.EdgeLoops)
                     {
                         PointCoordinateFloor pointCoordinateFloor = new PointCoordinateFloor();
-                        var thick = element.get_Parameter(BuiltInParameter.FLOOR_ATTR_THICKNESS_PARAM)?.AsValueString();
+                        var thick = element.get_Parameter(BuiltInParameter.FLOOR_ATTR_THICKNESS_PARAM).AsValueString();
                         if(thick == "0")
                         {
                             var type = doc.GetElement(element.GetTypeId());
                             thick = type.get_Parameter(BuiltInParameter.FLOOR_ATTR_DEFAULT_THICKNESS_PARAM)?.AsValueString();
                         }
-                        pointCoordinateFloor.Profile = element.get_Parameter(BuiltInParameter.FLOOR_ATTR_THICKNESS_PARAM).AsValueString();
+                        pointCoordinateFloor.Profile = thick;
                         List<PointCoordinate> listPointCoordinates = new List<PointCoordinate>();
                         foreach (Edge edge in edgeArray)
                         {
@@ -406,7 +406,13 @@ namespace RevitToTekla
                     List<PointCoordinateFloor> listPointCoordinatesFloor = new List<PointCoordinateFloor>();
                     List<PointCoordinate> listPointCoordinates = new List<PointCoordinate>();
                     PointCoordinateFloor pointCoordinateFloor = new PointCoordinateFloor();
-                    pointCoordinateFloor.Profile = element.get_Parameter(BuiltInParameter.FLOOR_ATTR_THICKNESS_PARAM).AsValueString();
+                    var thick = element.get_Parameter(BuiltInParameter.FLOOR_ATTR_THICKNESS_PARAM).AsValueString();
+                    if (thick == "0")
+                    {
+                        var type = doc.GetElement(element.GetTypeId());
+                        thick = type.get_Parameter(BuiltInParameter.FLOOR_ATTR_DEFAULT_THICKNESS_PARAM)?.AsValueString();
+                    }
+                    pointCoordinateFloor.Profile = thick;
                     pointCoordinateFloor.BasePointFloor = Math.Round((GetBasePointFloor(doc, element).Z +
                         element.get_Parameter(BuiltInParameter.FLOOR_HEIGHTABOVELEVEL_PARAM).AsDouble()) * 304.8, 0).ToString();
                     foreach (SlabShapeVertex shape in floor.SlabShapeEditor.SlabShapeVertices)

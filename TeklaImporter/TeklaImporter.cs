@@ -33,10 +33,7 @@ namespace TeklaImporter
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            //var selection = new Picker().PickObjects(Picker.PickObjectsEnum.PICK_N_OBJECTS, "Pick Objects");
 
-
-            //return;
             using (OpenFileDialog ofd = new OpenFileDialog() { Multiselect = false, ValidateNames = true, Filter = "JSON|*.json" })
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
