@@ -11,42 +11,6 @@ namespace TeklaImporter
 {
     public class Program
     {
-    
-
-        private System.Reflection.Assembly  CurrentDomain_AssemblyResolve(   object sender,  ResolveEventArgs args)
-        {
-            if (args.Name.Contains("Newtonsoft"))
-            {
-                string filename = Path.GetDirectoryName(
-                  System.Reflection.Assembly
-                    .GetExecutingAssembly().Location);
-
-                filename = Path.Combine(filename,
-                  "Newtonsoft.Json.dll");
-
-                if (File.Exists(filename))
-                {
-                    return System.Reflection.Assembly
-                      .LoadFrom(filename);
-                }
-            }
-            if (args.Name.Contains("Tekla.Structures.Model"))
-            {
-                string filename = Path.GetDirectoryName(
-                  System.Reflection.Assembly
-                    .GetExecutingAssembly().Location);
-
-                filename = Path.Combine(filename,
-                  "Tekla.Structures.Model.dll");
-
-                if (File.Exists(filename))
-                {
-                    return System.Reflection.Assembly
-                      .LoadFrom(filename);
-                }
-            }
-            return null;
-        }
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
