@@ -1,0 +1,13 @@
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\ObjDir\AnyCPU\Debug\TeklaImporter\TeklaImporter.Progress_Form.resources
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\ObjDir\AnyCPU\Debug\TeklaImporter\TeklaImporter.TeklaImporter.resources
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\ObjDir\AnyCPU\Debug\TeklaImporter\TeklaImporter.csproj.GenerateResource.cache
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\ObjDir\AnyCPU\Debug\TeklaImporter\TeklaImporter.csproj.CoreCompileInputs.cache
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\TeklaImporter\bin\Debug\TeklaImporter.pdb
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\TeklaImporter\bin\Debug\Newtonsoft.Json.dll
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\TeklaImporter\bin\Debug\Newtonsoft.Json.xml
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\ObjDir\AnyCPU\Debug\TeklaImporter\TeklaImporter.csproj.CopyComplete
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\ObjDir\AnyCPU\Debug\TeklaImporter\TeklaImporter.pdb
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\TeklaImporter\bin\Debug\TeklaImporter.exe.config
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\TeklaImporter\bin\Debug\TeklaImporter.exe
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\ObjDir\AnyCPU\Debug\TeklaImporter\TeklaImporter.exe.config
+E:\6.Personal\1.Revit\2.RevitToTekla\RevitToTekla\ObjDir\AnyCPU\Debug\TeklaImporter\TeklaImporter.exe
